@@ -2,9 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 import os
-# 获取当前脚本所在目录
 current_dir = os.path.dirname(os.path.abspath(__file__))
-# 构建相对于当前脚本的路径
 filePath = os.path.join(current_dir, '../Instances')
 resultPath = os.path.join(current_dir, '../Solutions')
 data_list = pd.read_excel('data_list.xlsx')
@@ -174,3 +172,4 @@ if feasible:
     print("All constraints passed, objective value =", val)
 else:
     print("Constraint violation:", val)
+
