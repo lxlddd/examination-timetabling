@@ -12,7 +12,7 @@ Use these data to reproduce the experimental results of the paper or explore oth
 - │   ├── checker.py                 # Core checking script
 - │   └── data_list.csv              # Data inventory/index file
 - │
-- ├── 📁 Instances/                  # Instance data folder
+- ├── 📁 Instances.zip/                  # Instance data folder
 - │   └── 📁 QX1/                    # Specific instance (eg QX1)
 - │       ├── Classroom_campus_matrix.csv      # S_il: Classroom-campus affiliation matrix
 - │       ├── Classroom_capacity.csv           # C_i: Classroom capacity data
