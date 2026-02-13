@@ -5,7 +5,7 @@ Use these data to reproduce the experimental results of the paper or explore oth
 
 ## Structure
 - `Checker/`: Including: a check procedure for checking the feasibility and quality of the results, and its use will be followed later; An instance of characteristic data (I (number of classrooms), S (number of students), M (number of courses), J (number of exam slots), R (classroom area), K (number of teachers)).
-- `Instances/`: Including the experimental part of the paper is all the example data.
+- `Instances/`: Including the experimental part of the paper is all the example data (unzip before use).
 - `Solutions/`: Including the best results obtained by the paper using the ALNS algorithm.
 -
 - ├── 📁 Checker/                    # Checker module: solution validation
